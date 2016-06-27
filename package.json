@@ -1,0 +1,23 @@
+{
+  "name": "node-sass-starter",
+  "version": "1.0.0",
+  "description": "A simple starter for node and sass",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --include-path scss public/sass/main.scss public/css/main.css",
+    "watch": "nodemon -e scss -x \"npm run sass && node server\" --watch public/"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttaub/sass-node-starter.git"
+  },
+  "author": "Tom Taubkin",
+  "license": "ISC",
+  "homepage": "https://github.com/ttaub/sass-node-starter",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.9.2"
+  }
+}

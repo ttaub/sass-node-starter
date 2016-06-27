@@ -1,0 +1,22 @@
+/* -------- Variables --------- */
+/* -------- Global Styles --------- */
+* {
+  box-sizing: border-box; }
+
+body {
+  color: #333;
+  font-weight: 300;
+  margin: 0px; }
+
+.wrapper {
+  width: 1400px;
+  max-width: 90%;
+  margin: 0 auto; }
+
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table; }
+
+.cf:after {
+  clear: both; }
